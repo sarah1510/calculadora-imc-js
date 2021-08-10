@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
     <title>Calculadora imc</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -66,21 +67,21 @@
             <form>
                 <div class="campo">
                     <label for="">Nome:</label>
-                    <input type="text">
+                    <input type="text"  id="nome">
                 </div>
 
                 <div class="campo unidade" data-unidade="metros">
                     <label for="">Altura:</label>
-                    <input type="text">
+                    <input type="text"   id="altura">
                 </div>
 
 
                 <div class="campo unidade" data-unidade="quilos">
                     <label for="">Peso:</label>
-                    <input type="text">
+                    <input type="text"  id="peso">
                 </div>
 
-                <button type="button">CALCULAR</button>
+                <button type="button" id="calcular">CALCULAR</button>
 
                 <div id="resultado"></div>
             </form>
